@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AF36D22A1F264900998158 /* MainScreenWithLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF36D12A1F264900998158 /* MainScreenWithLocation.png */; };
+		47AF36D42A1F265200998158 /* MainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AF36D32A1F265200998158 /* MainScreen.png */; };
 		47D19E0429FC7291008023CD /* LocationFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D19E0329FC7291008023CD /* LocationFinderApp.swift */; };
 		47D19E0629FC7291008023CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D19E0529FC7291008023CD /* ContentView.swift */; };
 		47D19E0829FC7293008023CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D19E0729FC7293008023CD /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47AF36D12A1F264900998158 /* MainScreenWithLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreenWithLocation.png; sourceTree = "<group>"; };
+		47AF36D32A1F265200998158 /* MainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreen.png; sourceTree = "<group>"; };
 		47D19E0029FC7291008023CD /* LocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D19E0329FC7291008023CD /* LocationFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFinderApp.swift; sourceTree = "<group>"; };
 		47D19E0529FC7291008023CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47AF36D02A1F261A00998158 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				47AF36D12A1F264900998158 /* MainScreenWithLocation.png */,
+				47AF36D32A1F265200998158 /* MainScreen.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		47D19DF729FC7291008023CD = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +76,7 @@
 		47D19E0229FC7291008023CD /* LocationFinder */ = {
 			isa = PBXGroup;
 			children = (
+				47AF36D02A1F261A00998158 /* Screenshots */,
 				47D19E1D29FDAEA0008023CD /* View */,
 				47D19E1829FC7D0F008023CD /* Services */,
 				47D19E1129FC731B008023CD /* Models */,
@@ -167,7 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AF36D42A1F265200998158 /* MainScreen.png in Resources */,
 				47D19E0B29FC7293008023CD /* Preview Assets.xcassets in Resources */,
+				47AF36D22A1F264900998158 /* MainScreenWithLocation.png in Resources */,
 				47D19E1529FC796D008023CD /* Countries.json in Resources */,
 				47D19E0829FC7293008023CD /* Assets.xcassets in Resources */,
 			);
